@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/vagrant/aplikasi":{"create":true,"owner":"www-data","group":"www-data","guestpath":"/home/vagrant/aplikasi","hostpath":"/home/ifan/workspace/belajar-vagrant/aplikasi","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/home/ifan/workspace/belajar-vagrant","disabled":false,"__vagrantfile":true}}}
