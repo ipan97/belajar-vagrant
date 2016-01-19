@@ -1,0 +1,13 @@
+server {
+	listen 80 default_server;
+	listen [::]:80 default_server;
+	root /home/vagrant/aplikasisaya/public;
+	index index.html index.php index.htm index.nginx-debian.html;
+
+	server_name aplikasisaya.contoh.com;
+	include hhvm.conf;
+
+	location / {
+		try_files $uri $uri/ /index.php?$query_string;
+	}
+}
